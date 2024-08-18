@@ -1,0 +1,1 @@
+export const LOGO_URL = "https://static.vecteezy.com/system/resources/thumbnails/010/071/559/small_2x/barbershop-logo-barber-shop-logo-template-vector.jpg"
