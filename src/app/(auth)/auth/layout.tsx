@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../globals.css"
-import Wrapper from "@/component/wrapper/Wrapper";
+import "../../globals.css"
+import WrapperAuth from "@/component/wrapper/WrapperAuth";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BARBER LANGKAT",
+  title: "Signin - BARBER LANGKAT",
   description: "Website Barber Langkat",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body className={inter.className}>
-        <Wrapper>{children}</Wrapper>
+        <WrapperAuth>{children}</WrapperAuth>
       </body>
     </html>
   );

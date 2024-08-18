@@ -35,6 +35,9 @@ export const options : AuthOptions = {
             // Return null if user data could not be retrieved
             return null
           }
-        })
-      ]
+        }),
+      ],
+      pages:{
+        signIn: "/auth/signin"
+      }
 }
