@@ -12,7 +12,10 @@ function Wrapper({ children }: Props) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <SessionProvider>{children}</SessionProvider>
+      <SessionProvider>
+        <h1>LANDING PAGE</h1>
+        {children}
+        </SessionProvider>
     </QueryClientProvider>
   );
 }

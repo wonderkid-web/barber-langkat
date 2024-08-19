@@ -13,6 +13,7 @@ function WrapperAuth({ children }: Props) {
   return (
     <QueryClientProvider client={queryClient}>
       <SessionProvider>
+        <h1>AUTH</h1>
         {children}
         </SessionProvider>
     </QueryClientProvider>
