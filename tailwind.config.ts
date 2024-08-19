@@ -19,8 +19,14 @@ const config = {
     },
     extend: {
       backgroundColor:{
-        "primary" : "#D7743B"
+        "primary" : "#D7743B",
+        "secondary" : "#F59E0B"
       },
+      textColor: {
+        "header" : "#231f20",
+        "paragraph": "#554b4d"
+      }
+      ,
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
