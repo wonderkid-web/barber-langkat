@@ -1,8 +1,4 @@
 import Bangku from "@/component/menu/Bangku";
-import { Badge } from "@/components/ui/badge";
-import { ScissorsIcon } from "@radix-ui/react-icons";
-import Link from "next/link";
-import React from "react";
 
 type Props = {};
 

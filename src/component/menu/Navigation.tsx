@@ -20,13 +20,13 @@ const Navigation = () => {
       </Link>
 
       <Link
-        href="/kursi-pesanan"
+        href="/admin/report"
         data-tooltip-target="tooltip-kursi-pesanan"
         type="button"
         className="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-black dark:hover:bg-black group"
       >
         <TableIcon className="w-5 h-5 mb-1 text-white dark:text-black group-hover:text-white dark:group-hover:text-white" />
-        <span className="sr-only">Kursi Pesanan</span>
+        <span className="sr-only">Laporan Penjual</span>
       </Link>
 
       <div className="flex items-center justify-center">
@@ -42,7 +42,7 @@ const Navigation = () => {
       </div>
 
       <Link
-        href="/"
+        href="/admin/pesanan"
         data-tooltip-target="tooltip-kursi-pesanan"
         type="button"
         className="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-black dark:hover:bg-black group"
